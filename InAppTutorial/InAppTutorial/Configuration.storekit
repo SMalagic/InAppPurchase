@@ -1,14 +1,14 @@
 {
   "products" : [
     {
-      "displayPrice" : "149",
+      "displayPrice" : "20.99",
       "familyShareable" : false,
       "internalID" : "33D6D345",
       "localizations" : [
         {
           "description" : "Derspektif Dijital",
           "displayName" : "8. Sınıf Öğrenme Ekosistemi",
-          "locale" : "tr"
+          "locale" : "en_US"
         }
       ],
       "productID" : "com.derspektif.DPD.00001",
@@ -16,14 +16,14 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "149",
+      "displayPrice" : "20.99",
       "familyShareable" : false,
       "internalID" : "98ACFAE5",
       "localizations" : [
         {
           "description" : "Derspektif Dijital",
           "displayName" : "9. Sınıf Öğrenme Ekosistemi",
-          "locale" : "tr"
+          "locale" : "en_US"
         }
       ],
       "productID" : "com.derspektif.DPD.00002",
@@ -31,14 +31,14 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "149",
+      "displayPrice" : "20.99",
       "familyShareable" : false,
       "internalID" : "292D0F4B",
       "localizations" : [
         {
           "description" : "Derspektif Dijital",
           "displayName" : "10. Sınıf Öğrenme Ekositemi",
-          "locale" : "tr"
+          "locale" : "en_US"
         }
       ],
       "productID" : "com.derspektif.DPD.00003",
@@ -46,14 +46,14 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "149",
+      "displayPrice" : "20.99",
       "familyShareable" : false,
       "internalID" : "744B6C95",
       "localizations" : [
         {
           "description" : "Derspektif Dijital",
           "displayName" : "11. Sınıf Öğrenme Ekosistemi",
-          "locale" : "tr"
+          "locale" : "en_US"
         }
       ],
       "productID" : "com.derspektif.DPD.00004",
@@ -61,14 +61,14 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "149",
+      "displayPrice" : "20.99",
       "familyShareable" : false,
       "internalID" : "BF819FEE",
       "localizations" : [
         {
           "description" : "Derspektif Dijital",
           "displayName" : "AYT EA Öğrenme Ekosistemi",
-          "locale" : "tr"
+          "locale" : "en_US"
         }
       ],
       "productID" : "com.derspektif.DPD.00008",
@@ -76,14 +76,14 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "149",
+      "displayPrice" : "20.99",
       "familyShareable" : false,
       "internalID" : "AB84E11D",
       "localizations" : [
         {
           "description" : "Derspektif Dijital",
           "displayName" : "AYT Sayısal Öğrenme Ekosistemi",
-          "locale" : "tr"
+          "locale" : "en_US"
         }
       ],
       "productID" : "com.derspektif.DPD.00007",
@@ -91,14 +91,14 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "149",
+      "displayPrice" : "20.99",
       "familyShareable" : false,
       "internalID" : "F6CBD73E",
       "localizations" : [
         {
           "description" : "Derspektif Dijital",
           "displayName" : "TYT Öğrenme Ekosistemi",
-          "locale" : "tr"
+          "locale" : "en_US"
         }
       ],
       "productID" : "com.derspektif.DPD.00006",
