@@ -32,9 +32,9 @@ class ViewController: UIViewController , SKPaymentTransactionObserver{
     
     // Ürün Bilgilerini içeren model
     func setProducts(){
-        
-        products.append(Product(id: "com.derspektif.DPD.00001", title: "8. Sınıf Öğrenme Ekosistemi", description: "Derspektif Dijital", price: "20.99$", img: "derspektif-logo"))
-        products.append(Product(id: "com.derspektif.DPD.00002", title: "9. Sınıf Öğrenme Ekosistemi", description: "Derspektif Dijital", price: "20.99$", img: "derspektif-logo"))
+                                       
+        products.append(Product(id: "com.serkanapp.trialTransaction", title: "8. Sınıf Öğrenme Ekosistemi", description: "Derspektif Dijital", price: "20.99$", img: "derspektif-logo"))
+        products.append(Product(id: "com.serkanapp.trialTransaction", title: "9. Sınıf Öğrenme Ekosistemi", description: "Derspektif Dijital", price: "20.99$", img: "derspektif-logo"))
         products.append(Product(id: "com.derspektif.DPD.00003", title: "10. Sınıf Öğrenme Ekosistemi", description: "Derspektif Dijital", price: "20.99$", img: "derspektif-logo"))
         products.append(Product(id: "com.derspektif.DPD.00004", title: "11. Sınıf Öğrenme Ekosistemi", description: "Derspektif Dijital", price: "20.99$", img: "derspektif-logo"))
         products.append(Product(id: "com.derspektif.DPD.00006", title: "AYT EA Öğrenme Ekosistemi", description: "Derspektif Dijital", price: "20.99$", img: "derspektif-logo"))

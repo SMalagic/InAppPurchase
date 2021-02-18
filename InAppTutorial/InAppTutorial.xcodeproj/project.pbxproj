@@ -16,7 +16,7 @@
 		F35E78A925DC095000485A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35E78A725DC095000485A74 /* LaunchScreen.storyboard */; };
 		F35E78B625DC0AD900485A74 /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = F35E78B525DC0AD900485A74 /* Configuration.storekit */; };
 		F377CD5625DD056300EBA068 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377CD5525DD056300EBA068 /* Model.swift */; };
-		F3A1704D25DD227600D9EA7C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A1704C25DD227600D9EA7C /* StoreKit.framework */; };
+		F8161BB025DD53CD00541B09 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8161BAF25DD53CD00541B09 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		F377CD5225DD037400EBA068 /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F377CD5325DD037400EBA068 /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F377CD5525DD056300EBA068 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		F3A1704C25DD227600D9EA7C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F8161BAF25DD53CD00541B09 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				261471FDCE1C65A0B7588E07 /* Pods_InAppTutorial.framework in Frameworks */,
-				F3A1704D25DD227600D9EA7C /* StoreKit.framework in Frameworks */,
+				F8161BB025DD53CD00541B09 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 		FE5D1D4635092C5811F9064C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F3A1704C25DD227600D9EA7C /* StoreKit.framework */,
+				F8161BAF25DD53CD00541B09 /* StoreKit.framework */,
 				9EA8769B2A71553C3284C0D5 /* Pods_InAppTutorial.framework */,
 			);
 			name = Frameworks;
@@ -296,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -351,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -367,18 +367,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6C67766GM7;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 2584UNKWXQ;
 				INFOPLIST_FILE = InAppTutorial/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.futurino.Inapp.InAppTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serkanapp.InAppPurchase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -388,18 +391,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6C67766GM7;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 2584UNKWXQ;
 				INFOPLIST_FILE = InAppTutorial/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.futurino.Inapp.InAppTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serkanapp.InAppPurchase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
