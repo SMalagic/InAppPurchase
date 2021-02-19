@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 enum IAPProduct : String {
     case product1 = "com.serkanapp.trialTransaction"
     case product2 = "com.serkanapp.trialTransaction2"
