@@ -17,6 +17,8 @@
 		F35E78B625DC0AD900485A74 /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = F35E78B525DC0AD900485A74 /* Configuration.storekit */; };
 		F377CD5625DD056300EBA068 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377CD5525DD056300EBA068 /* Model.swift */; };
 		F8161BB025DD53CD00541B09 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8161BAF25DD53CD00541B09 /* StoreKit.framework */; };
+		F83AC4B825DE9F8000F25545 /* IAPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83AC4B625DE9F8000F25545 /* IAPService.swift */; };
+		F83AC4B925DE9F8000F25545 /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83AC4B725DE9F8000F25545 /* IAPProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		F377CD5325DD037400EBA068 /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F377CD5525DD056300EBA068 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F8161BAF25DD53CD00541B09 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F83AC4B625DE9F8000F25545 /* IAPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPService.swift; sourceTree = "<group>"; };
+		F83AC4B725DE9F8000F25545 /* IAPProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +85,9 @@
 			children = (
 				F35E789C25DC095000485A74 /* AppDelegate.swift */,
 				F35E789E25DC095000485A74 /* SceneDelegate.swift */,
-				F35E78A025DC095000485A74 /* ViewController.swift */,
-				F377CD5525DD056300EBA068 /* Model.swift */,
+				F83AC4BD25DE9FBE00F25545 /* Model */,
+				F83AC4BC25DE9FB000F25545 /* Controller */,
+				F83AC4BB25DE9FA800F25545 /* Helpers */,
 				F35E78A225DC095000485A74 /* Main.storyboard */,
 				F35E78A525DC095000485A74 /* Assets.xcassets */,
 				F35E78A725DC095000485A74 /* LaunchScreen.storyboard */,
@@ -90,6 +95,31 @@
 				F35E78AA25DC095000485A74 /* Info.plist */,
 			);
 			path = InAppTutorial;
+			sourceTree = "<group>";
+		};
+		F83AC4BB25DE9FA800F25545 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F83AC4B725DE9F8000F25545 /* IAPProduct.swift */,
+				F83AC4B625DE9F8000F25545 /* IAPService.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F83AC4BC25DE9FB000F25545 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F35E78A025DC095000485A74 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F83AC4BD25DE9FBE00F25545 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F377CD5525DD056300EBA068 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FE5D1D4635092C5811F9064C /* Frameworks */ = {
@@ -216,7 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83AC4B925DE9F8000F25545 /* IAPProduct.swift in Sources */,
 				F35E78A125DC095000485A74 /* ViewController.swift in Sources */,
+				F83AC4B825DE9F8000F25545 /* IAPService.swift in Sources */,
 				F35E789D25DC095000485A74 /* AppDelegate.swift in Sources */,
 				F35E789F25DC095000485A74 /* SceneDelegate.swift in Sources */,
 				F377CD5625DD056300EBA068 /* Model.swift in Sources */,
@@ -369,7 +401,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 2584UNKWXQ;
 				INFOPLIST_FILE = InAppTutorial/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -393,7 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 2584UNKWXQ;
 				INFOPLIST_FILE = InAppTutorial/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

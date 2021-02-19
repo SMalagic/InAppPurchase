@@ -15,38 +15,46 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         tableView.tableFooterView = UIView()
-        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            IAPService.shared.purchase(product: .product2)
+        }
 
+        
     }
    
 }
 
-
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return products.count
+        return 2
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
         
-        cell.textLabel?.text = products[indexPath.row].title
-        cell.detailTextLabel?.text = products[indexPath.row].description
-        cell.imageView?.image = UIImage(named: products[indexPath.row].img)
-        cell.imageView?.layer.cornerRadius = 10
-        cell.textLabel?.font = UIFont(name: "Avenir Next Demi Bold", size: 17)
-        cell.detailTextLabel?.font = UIFont(name: "Avenir Next Demi Bold", size: 12)
-        cell.textLabel?.textColor = .darkGray
-        cell.detailTextLabel?.textColor = .lightGray
+        if indexPath.row == 0 {
+            cell.textLabel?.text = IAPProduct.product1.rawValue
+        }else if indexPath.row == 1 {
+            cell.textLabel?.text = IAPProduct.product2.rawValue
+        }
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-        
+        if indexPath.row == 0 {
+            DispatchQueue.main.async {
+                print("first item purchasing")
+                IAPService.shared.purchase(product: .product1)
+            }
+        }
+        else if indexPath.row == 1 {
+            DispatchQueue.main.async {
+                print("second item purchasing")
+                IAPService.shared.purchase(product: .product2)
+            }
+        }
     }
     
 }

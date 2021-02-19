@@ -8,13 +8,7 @@
 
 import Foundation
 
-
 enum IAPProduct : String {
-    case product1 = "com.derspektif.DPD.00001"
-    case product2 = "com.derspektif.DPD.00002"
-    case product3 = "com.derspektif.DPD.00003"
-    case product4 = "com.derspektif.DPD.00004"
-    case product6 = "com.derspektif.DPD.00006"
-    case product7 = "com.derspektif.DPD.00007"
-    case product8 = "com.derspektif.DPD.00008"
+    case product1 = "com.serkanapp.trialTransaction"
+    case product2 = "com.serkanapp.trialTransaction2"
 }
